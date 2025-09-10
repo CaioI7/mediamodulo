@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo de Notas Ponderadas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Cálculo da Nota Final do Módulo</h2>
+    
+    <h3>PBL (10%)</h3>
+    <div class="grupo">
+      <input type="text" id="pbl1" placeholder="Nota 1">
+      <input type="text" id="pbl2" placeholder="Nota 2">
+      <input type="text" id="pbl3" placeholder="Nota 3">
+      <input type="text" id="pbl4" placeholder="Nota 4">
+    </div>
+
+    <h3>Rotação por Estação (10%)</h3>
+    <div class="grupo">
+      <input type="text" id="rot1" placeholder="Nota 1">
+      <input type="text" id="rot2" placeholder="Nota 2">
+      <input type="text" id="rot3" placeholder="Nota 3">
+      <input type="text" id="rot4" placeholder="Nota 4">
+    </div>
+
+    <h3>gRAT (10%)</h3>
+    <div class="grupo">
+      <input type="text" id="grat1" placeholder="Nota 1">
+      <input type="text" id="grat2" placeholder="Nota 2">
+      <input type="text" id="grat3" placeholder="Nota 3">
+      <input type="text" id="grat4" placeholder="Nota 4">
+    </div>
+
+    <h3>iRAT (15%)</h3>
+    <div class="grupo">
+      <input type="text" id="irat1" placeholder="Nota 1">
+      <input type="text" id="irat2" placeholder="Nota 2">
+      <input type="text" id="irat3" placeholder="Nota 3">
+      <input type="text" id="irat4" placeholder="Nota 4">
+    </div>
+
+    <h3>Prova Teórica (34%)</h3>
+    <input type="text" id="teorica" placeholder="Nota">
+
+    <h3>LPI (7%)</h3>
+    <input type="text" id="lpi" placeholder="Nota">
+
+    <h3>LMF (14%)</h3>
+    <input type="text" id="lmf" placeholder="Nota">
+
+    <button onclick="calcularNota()">Calcular Nota Final</button>
+    
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

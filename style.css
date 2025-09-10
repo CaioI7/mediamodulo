@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 450px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#lmf {
+  display: block;
+  margin: 0 auto;
+}
+
+#lpi {
+  display: block;
+  margin: 0 auto;
+}
+
+#teorica {
+  display: block;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+.grupo {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+input {
+  width: 70px;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #0077cc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+#resultado {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.aprovado {
+  background: #d4edda;
+  color: #155724;
+}
+
+.reprovado {
+  background: #f8d7da;
+  color: #721c24;
+}
